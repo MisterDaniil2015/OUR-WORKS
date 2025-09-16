@@ -1,0 +1,102 @@
+h1{
+    color:#FFFFFF ;
+    text-align: center;
+    font-size: 180px;
+    font-family: Arial;
+    font-weight: bold;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 348px;
+}
+body{
+     background: linear-gradient(147.95deg, #7E3AF2 19.25%, rgba(175, 128, 255, 0.7) 99.43%);
+     height: 200vh;
+}
+.image{
+    width: 330px;
+    height: 330px;
+}
+.png1{
+    background-image: url("1.jpg");
+    background-size: cover;
+    transform: rotate(-17deg);
+    position: absolute;
+    inset-inline-start: 870px;
+    inset-block-start: 280px;
+}
+.png2{
+    background-image: url("2.jpg");
+    background-size: cover;
+    transform: rotate(15deg);
+    z-index: 10;
+    position: absolute;
+    inset-inline-start: 600px;
+    inset-block-start: 600px;
+}
+.png3{
+    background-image: url("3.jpg");
+    background-size: cover;
+    transform: rotate(-15deg);
+    position: absolute;
+    inset-inline-start: 880px;
+    inset-block-start: 880px;
+}
+.png4{
+    background-image: url("4.jpg");
+    background-size: cover;
+    transform: rotate(-4deg);
+    z-index: 10;
+    position: absolute;
+    inset-inline-start: 460px;
+    inset-block-start: 1050px;
+}
+.png5{
+    background-image: url("5.jpg");
+    background-size: cover;
+    transform: rotate(19deg);
+    width: 205px;
+    height: 205px;
+    position: absolute;
+    inset-inline-start: 1030px;
+    inset-block-start: 1250px;
+}
+.png6{
+    background-image: url("6.jpg");
+    background-size: cover;
+    transform: rotate(22deg);
+    z-index: 9;
+    position: absolute;
+    inset-inline-start: 600px;
+    inset-block-start: 1400px;
+}
+.png7{
+    background-image: url("7.jpg");
+    background-size: cover;
+    transform: rotate(-15deg);
+    position: absolute;
+    inset-inline-start: 870px;
+    inset-block-start: 1650px;
+}
+.png8{
+    background-image: url("8.jpg");
+    background-size: cover;
+    transform: rotate(-14deg);
+    width: 205px;
+    height: 205px;
+    position: absolute;
+    inset-inline-start: 400px;
+    inset-block-start: 1800px;
+}
+p{
+    position: absolute;
+    inset-inline-start:270px ;
+    font-size: 15px;
+}
+img{
+    position: absolute;
+    inset-inline-start: 1450px;
+    z-index: 11;
+}
